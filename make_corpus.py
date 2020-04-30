@@ -57,10 +57,10 @@ def create_content(list_pages, folder_name, links_req):
 def get_table_contents(wiki_page):
     # load page
     mediawikiapi = MediaWikiAPI()
-    test_page = mediawikiapi.page(wiki_page)
+    mwa_page = mediawikiapi.page(wiki_page)
 
     # scrape the HTML with BeautifulSoup to find tables
-    soup = BeautifulSoup(test_page.html(), 'html.parser')
+    soup = BeautifulSoup(mwa_page.html(), 'html.parser')
     tables = soup.findAll("table", {"class": "wikitable"})
     # select target table and apply custom function to export it to pandas
     table_contents = None
