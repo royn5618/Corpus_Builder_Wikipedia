@@ -7,7 +7,9 @@ This repository is set-up to scrape wikipedia articles. This code leverages the 
 ```-topic=<str> -level=<int> -folder=<str>```
 
 -topic : The topic you want to be searched
+
 -level: Level is explained below.
+
 -folder : Storage Folder Name
 
 ### What is Level?
