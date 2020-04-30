@@ -17,3 +17,5 @@ This repository is set-up to scrape wikipedia articles *including tables*. This 
 This code searches the topic, gets related pages and scrapes them. At level 1, it stops here. If level is 2, it gets the links in these pages and scrapes them as well. Basically, level is the number of times embedded links in the Wikipedia pages will be scraped.
 
 *A sample scrape result is provided in the Sample folder.*
+
+[Find the corpus here](https://github.com/royn5618/Corpus_Builder_Wikipedia/blob/master/IndiaPolitics.zip)
