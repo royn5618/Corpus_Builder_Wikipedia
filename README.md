@@ -14,4 +14,8 @@ This repository is set-up to scrape wikipedia articles. This code leverages the 
 
 ### What is Level?
 
-This code searches the topic, gets related pages and scrapes them. At level 1, it stops here. If level is 2, it gets the links in these pages and scrapes them as well.
+This code searches the topic, gets related pages and scrapes them. At level 1, it stops here. If level is 2, it gets the links in these pages and scrapes them as well. Basically, level is the number of times embedded links in the Wikipedia pages will be scraped.
+
+###Samples:
+
+A sample scrape result is provided in the Sample folder.
