@@ -4,7 +4,7 @@ This repository is set-up to scrape wikipedia articles. This code leverages the 
 
 ## How to use:
 
-```-topic=<str> -level=<int> -folder=<str```
+```-topic=<str> -level=<int> -folder=<str>```
 
 -topic : The topic you want to be searched
 -level: Level is explained below.
